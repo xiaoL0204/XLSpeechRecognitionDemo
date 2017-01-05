@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15CDDCF1E1E172B0097BD3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDDCE1E1E172B0097BD3C /* AppDelegate.swift */; };
+		A15CDDD11E1E172B0097BD3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDDD01E1E172B0097BD3C /* ViewController.swift */; };
+		A15CDDD41E1E172B0097BD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15CDDD21E1E172B0097BD3C /* Main.storyboard */; };
+		A15CDDD61E1E172B0097BD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15CDDD51E1E172B0097BD3C /* Assets.xcassets */; };
+		A15CDDD91E1E172B0097BD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15CDDD71E1E172B0097BD3C /* LaunchScreen.storyboard */; };
+		A15CDDE41E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDDE31E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.swift */; };
+		A15CDDEF1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDDEE1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.swift */; };
+		A15CDE7F1E1E19700097BD3C /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE4E1E1E19700097BD3C /* POPAnimatableProperty.mm */; };
+		A15CDE801E1E19700097BD3C /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE501E1E19700097BD3C /* POPAnimation.mm */; };
+		A15CDE811E1E19700097BD3C /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE521E1E19700097BD3C /* POPAnimationEvent.mm */; };
+		A15CDE821E1E19700097BD3C /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE551E1E19700097BD3C /* POPAnimationExtras.mm */; };
+		A15CDE831E1E19700097BD3C /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE591E1E19700097BD3C /* POPAnimationRuntime.mm */; };
+		A15CDE841E1E19700097BD3C /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE5B1E1E19700097BD3C /* POPAnimationTracer.mm */; };
+		A15CDE851E1E19700097BD3C /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE5E1E1E19700097BD3C /* POPAnimator.mm */; };
+		A15CDE861E1E19700097BD3C /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE611E1E19700097BD3C /* POPBasicAnimation.mm */; };
+		A15CDE871E1E19700097BD3C /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE641E1E19700097BD3C /* POPCGUtils.mm */; };
+		A15CDE881E1E19700097BD3C /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE661E1E19700097BD3C /* POPCustomAnimation.mm */; };
+		A15CDE891E1E19700097BD3C /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE681E1E19700097BD3C /* POPDecayAnimation.mm */; };
+		A15CDE8A1E1E19700097BD3C /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE6C1E1E19700097BD3C /* POPGeometry.mm */; };
+		A15CDE8B1E1E19700097BD3C /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE6E1E1E19700097BD3C /* POPLayerExtras.mm */; };
+		A15CDE8C1E1E19700097BD3C /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE701E1E19700097BD3C /* POPMath.mm */; };
+		A15CDE8D1E1E19700097BD3C /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE721E1E19700097BD3C /* POPPropertyAnimation.mm */; };
+		A15CDE8E1E1E19700097BD3C /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE751E1E19700097BD3C /* POPSpringAnimation.mm */; };
+		A15CDE8F1E1E19700097BD3C /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE791E1E19700097BD3C /* POPVector.mm */; };
+		A15CDE901E1E19700097BD3C /* TransformationMatrix.mm in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE7D1E1E19700097BD3C /* TransformationMatrix.mm */; };
+		A15CDE951E1E19760097BD3C /* home_navi_bar_voice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A15CDE921E1E19760097BD3C /* home_navi_bar_voice@2x.png */; };
+		A15CDE961E1E19760097BD3C /* XLSpeechRecognitionConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE931E1E19760097BD3C /* XLSpeechRecognitionConstant.swift */; };
+		A15CDE971E1E19760097BD3C /* XLSpeechRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15CDE941E1E19760097BD3C /* XLSpeechRecognitionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15CDDE01E1E172B0097BD3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15CDDC31E1E172B0097BD3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15CDDCA1E1E172B0097BD3C;
+			remoteInfo = XLSpeechRecognitionDemo;
+		};
+		A15CDDEB1E1E172B0097BD3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15CDDC31E1E172B0097BD3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15CDDCA1E1E172B0097BD3C;
+			remoteInfo = XLSpeechRecognitionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15CDDCB1E1E172B0097BD3C /* XLSpeechRecognitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLSpeechRecognitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15CDDCE1E1E172B0097BD3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A15CDDD01E1E172B0097BD3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A15CDDD31E1E172B0097BD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A15CDDD51E1E172B0097BD3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15CDDD81E1E172B0097BD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A15CDDDA1E1E172B0097BD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15CDDDF1E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLSpeechRecognitionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15CDDE31E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSpeechRecognitionDemoTests.swift; sourceTree = "<group>"; };
+		A15CDDE51E1E172B0097BD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15CDDEA1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLSpeechRecognitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15CDDEE1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLSpeechRecognitionDemoUITests.swift; sourceTree = "<group>"; };
+		A15CDDF01E1E172B0097BD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15CDE4B1E1E19700097BD3C /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		A15CDE4C1E1E19700097BD3C /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		A15CDE4D1E1E19700097BD3C /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		A15CDE4E1E1E19700097BD3C /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		A15CDE4F1E1E19700097BD3C /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		A15CDE501E1E19700097BD3C /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		A15CDE511E1E19700097BD3C /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		A15CDE521E1E19700097BD3C /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		A15CDE531E1E19700097BD3C /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		A15CDE541E1E19700097BD3C /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		A15CDE551E1E19700097BD3C /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		A15CDE561E1E19700097BD3C /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		A15CDE571E1E19700097BD3C /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		A15CDE581E1E19700097BD3C /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		A15CDE591E1E19700097BD3C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		A15CDE5A1E1E19700097BD3C /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		A15CDE5B1E1E19700097BD3C /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		A15CDE5C1E1E19700097BD3C /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		A15CDE5D1E1E19700097BD3C /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		A15CDE5E1E1E19700097BD3C /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		A15CDE5F1E1E19700097BD3C /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		A15CDE601E1E19700097BD3C /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		A15CDE611E1E19700097BD3C /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		A15CDE621E1E19700097BD3C /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		A15CDE631E1E19700097BD3C /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		A15CDE641E1E19700097BD3C /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		A15CDE651E1E19700097BD3C /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		A15CDE661E1E19700097BD3C /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		A15CDE671E1E19700097BD3C /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		A15CDE681E1E19700097BD3C /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		A15CDE691E1E19700097BD3C /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		A15CDE6A1E1E19700097BD3C /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		A15CDE6B1E1E19700097BD3C /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		A15CDE6C1E1E19700097BD3C /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		A15CDE6D1E1E19700097BD3C /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		A15CDE6E1E1E19700097BD3C /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		A15CDE6F1E1E19700097BD3C /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		A15CDE701E1E19700097BD3C /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		A15CDE711E1E19700097BD3C /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		A15CDE721E1E19700097BD3C /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		A15CDE731E1E19700097BD3C /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		A15CDE741E1E19700097BD3C /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		A15CDE751E1E19700097BD3C /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		A15CDE761E1E19700097BD3C /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		A15CDE771E1E19700097BD3C /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		A15CDE781E1E19700097BD3C /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		A15CDE791E1E19700097BD3C /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		A15CDE7B1E1E19700097BD3C /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		A15CDE7C1E1E19700097BD3C /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		A15CDE7D1E1E19700097BD3C /* TransformationMatrix.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TransformationMatrix.mm; sourceTree = "<group>"; };
+		A15CDE7E1E1E19700097BD3C /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		A15CDE921E1E19760097BD3C /* home_navi_bar_voice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_navi_bar_voice@2x.png"; sourceTree = "<group>"; };
+		A15CDE931E1E19760097BD3C /* XLSpeechRecognitionConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSpeechRecognitionConstant.swift; sourceTree = "<group>"; };
+		A15CDE941E1E19760097BD3C /* XLSpeechRecognitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLSpeechRecognitionController.swift; sourceTree = "<group>"; };
+		A15CDE981E1E19880097BD3C /* XLSpeechRecognition-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLSpeechRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15CDDC81E1E172B0097BD3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDDC1E1E172B0097BD3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDE71E1E172B0097BD3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15CDDC21E1E172B0097BD3C = {
+			isa = PBXGroup;
+			children = (
+				A15CDDCD1E1E172B0097BD3C /* XLSpeechRecognitionDemo */,
+				A15CDDE21E1E172B0097BD3C /* XLSpeechRecognitionDemoTests */,
+				A15CDDED1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests */,
+				A15CDDCC1E1E172B0097BD3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15CDDCC1E1E172B0097BD3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDDCB1E1E172B0097BD3C /* XLSpeechRecognitionDemo.app */,
+				A15CDDDF1E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.xctest */,
+				A15CDDEA1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15CDDCD1E1E172B0097BD3C /* XLSpeechRecognitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDE4A1E1E19700097BD3C /* pop */,
+				A15CDDCE1E1E172B0097BD3C /* AppDelegate.swift */,
+				A15CDDD01E1E172B0097BD3C /* ViewController.swift */,
+				A15CDE911E1E19760097BD3C /* XLSpeechRecognition */,
+				A15CDDD21E1E172B0097BD3C /* Main.storyboard */,
+				A15CDE981E1E19880097BD3C /* XLSpeechRecognition-Bridging-Header.h */,
+				A15CDDD51E1E172B0097BD3C /* Assets.xcassets */,
+				A15CDDD71E1E172B0097BD3C /* LaunchScreen.storyboard */,
+				A15CDDDA1E1E172B0097BD3C /* Info.plist */,
+			);
+			path = XLSpeechRecognitionDemo;
+			sourceTree = "<group>";
+		};
+		A15CDDE21E1E172B0097BD3C /* XLSpeechRecognitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDDE31E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.swift */,
+				A15CDDE51E1E172B0097BD3C /* Info.plist */,
+			);
+			path = XLSpeechRecognitionDemoTests;
+			sourceTree = "<group>";
+		};
+		A15CDDED1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDDEE1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.swift */,
+				A15CDDF01E1E172B0097BD3C /* Info.plist */,
+			);
+			path = XLSpeechRecognitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		A15CDE4A1E1E19700097BD3C /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDE4B1E1E19700097BD3C /* POP.h */,
+				A15CDE4C1E1E19700097BD3C /* POPAction.h */,
+				A15CDE4D1E1E19700097BD3C /* POPAnimatableProperty.h */,
+				A15CDE4E1E1E19700097BD3C /* POPAnimatableProperty.mm */,
+				A15CDE4F1E1E19700097BD3C /* POPAnimation.h */,
+				A15CDE501E1E19700097BD3C /* POPAnimation.mm */,
+				A15CDE511E1E19700097BD3C /* POPAnimationEvent.h */,
+				A15CDE521E1E19700097BD3C /* POPAnimationEvent.mm */,
+				A15CDE531E1E19700097BD3C /* POPAnimationEventInternal.h */,
+				A15CDE541E1E19700097BD3C /* POPAnimationExtras.h */,
+				A15CDE551E1E19700097BD3C /* POPAnimationExtras.mm */,
+				A15CDE561E1E19700097BD3C /* POPAnimationInternal.h */,
+				A15CDE571E1E19700097BD3C /* POPAnimationPrivate.h */,
+				A15CDE581E1E19700097BD3C /* POPAnimationRuntime.h */,
+				A15CDE591E1E19700097BD3C /* POPAnimationRuntime.mm */,
+				A15CDE5A1E1E19700097BD3C /* POPAnimationTracer.h */,
+				A15CDE5B1E1E19700097BD3C /* POPAnimationTracer.mm */,
+				A15CDE5C1E1E19700097BD3C /* POPAnimationTracerInternal.h */,
+				A15CDE5D1E1E19700097BD3C /* POPAnimator.h */,
+				A15CDE5E1E1E19700097BD3C /* POPAnimator.mm */,
+				A15CDE5F1E1E19700097BD3C /* POPAnimatorPrivate.h */,
+				A15CDE601E1E19700097BD3C /* POPBasicAnimation.h */,
+				A15CDE611E1E19700097BD3C /* POPBasicAnimation.mm */,
+				A15CDE621E1E19700097BD3C /* POPBasicAnimationInternal.h */,
+				A15CDE631E1E19700097BD3C /* POPCGUtils.h */,
+				A15CDE641E1E19700097BD3C /* POPCGUtils.mm */,
+				A15CDE651E1E19700097BD3C /* POPCustomAnimation.h */,
+				A15CDE661E1E19700097BD3C /* POPCustomAnimation.mm */,
+				A15CDE671E1E19700097BD3C /* POPDecayAnimation.h */,
+				A15CDE681E1E19700097BD3C /* POPDecayAnimation.mm */,
+				A15CDE691E1E19700097BD3C /* POPDecayAnimationInternal.h */,
+				A15CDE6A1E1E19700097BD3C /* POPDefines.h */,
+				A15CDE6B1E1E19700097BD3C /* POPGeometry.h */,
+				A15CDE6C1E1E19700097BD3C /* POPGeometry.mm */,
+				A15CDE6D1E1E19700097BD3C /* POPLayerExtras.h */,
+				A15CDE6E1E1E19700097BD3C /* POPLayerExtras.mm */,
+				A15CDE6F1E1E19700097BD3C /* POPMath.h */,
+				A15CDE701E1E19700097BD3C /* POPMath.mm */,
+				A15CDE711E1E19700097BD3C /* POPPropertyAnimation.h */,
+				A15CDE721E1E19700097BD3C /* POPPropertyAnimation.mm */,
+				A15CDE731E1E19700097BD3C /* POPPropertyAnimationInternal.h */,
+				A15CDE741E1E19700097BD3C /* POPSpringAnimation.h */,
+				A15CDE751E1E19700097BD3C /* POPSpringAnimation.mm */,
+				A15CDE761E1E19700097BD3C /* POPSpringAnimationInternal.h */,
+				A15CDE771E1E19700097BD3C /* POPSpringSolver.h */,
+				A15CDE781E1E19700097BD3C /* POPVector.h */,
+				A15CDE791E1E19700097BD3C /* POPVector.mm */,
+				A15CDE7A1E1E19700097BD3C /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		A15CDE7A1E1E19700097BD3C /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDE7B1E1E19700097BD3C /* FloatConversion.h */,
+				A15CDE7C1E1E19700097BD3C /* TransformationMatrix.h */,
+				A15CDE7D1E1E19700097BD3C /* TransformationMatrix.mm */,
+				A15CDE7E1E1E19700097BD3C /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+		A15CDE911E1E19760097BD3C /* XLSpeechRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				A15CDE921E1E19760097BD3C /* home_navi_bar_voice@2x.png */,
+				A15CDE931E1E19760097BD3C /* XLSpeechRecognitionConstant.swift */,
+				A15CDE941E1E19760097BD3C /* XLSpeechRecognitionController.swift */,
+			);
+			path = XLSpeechRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15CDDCA1E1E172B0097BD3C /* XLSpeechRecognitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15CDDF31E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemo" */;
+			buildPhases = (
+				A15CDDC71E1E172B0097BD3C /* Sources */,
+				A15CDDC81E1E172B0097BD3C /* Frameworks */,
+				A15CDDC91E1E172B0097BD3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLSpeechRecognitionDemo;
+			productName = XLSpeechRecognitionDemo;
+			productReference = A15CDDCB1E1E172B0097BD3C /* XLSpeechRecognitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15CDDDE1E1E172B0097BD3C /* XLSpeechRecognitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15CDDF61E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemoTests" */;
+			buildPhases = (
+				A15CDDDB1E1E172B0097BD3C /* Sources */,
+				A15CDDDC1E1E172B0097BD3C /* Frameworks */,
+				A15CDDDD1E1E172B0097BD3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15CDDE11E1E172B0097BD3C /* PBXTargetDependency */,
+			);
+			name = XLSpeechRecognitionDemoTests;
+			productName = XLSpeechRecognitionDemoTests;
+			productReference = A15CDDDF1E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A15CDDE91E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15CDDF91E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemoUITests" */;
+			buildPhases = (
+				A15CDDE61E1E172B0097BD3C /* Sources */,
+				A15CDDE71E1E172B0097BD3C /* Frameworks */,
+				A15CDDE81E1E172B0097BD3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15CDDEC1E1E172B0097BD3C /* PBXTargetDependency */,
+			);
+			name = XLSpeechRecognitionDemoUITests;
+			productName = XLSpeechRecognitionDemoUITests;
+			productReference = A15CDDEA1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15CDDC31E1E172B0097BD3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaolin;
+				TargetAttributes = {
+					A15CDDCA1E1E172B0097BD3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A15CDDDE1E1E172B0097BD3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A15CDDCA1E1E172B0097BD3C;
+					};
+					A15CDDE91E1E172B0097BD3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A15CDDCA1E1E172B0097BD3C;
+					};
+				};
+			};
+			buildConfigurationList = A15CDDC61E1E172B0097BD3C /* Build configuration list for PBXProject "XLSpeechRecognitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15CDDC21E1E172B0097BD3C;
+			productRefGroup = A15CDDCC1E1E172B0097BD3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15CDDCA1E1E172B0097BD3C /* XLSpeechRecognitionDemo */,
+				A15CDDDE1E1E172B0097BD3C /* XLSpeechRecognitionDemoTests */,
+				A15CDDE91E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15CDDC91E1E172B0097BD3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15CDDD91E1E172B0097BD3C /* LaunchScreen.storyboard in Resources */,
+				A15CDDD61E1E172B0097BD3C /* Assets.xcassets in Resources */,
+				A15CDE951E1E19760097BD3C /* home_navi_bar_voice@2x.png in Resources */,
+				A15CDDD41E1E172B0097BD3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDDD1E1E172B0097BD3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDE81E1E172B0097BD3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15CDDC71E1E172B0097BD3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15CDDD11E1E172B0097BD3C /* ViewController.swift in Sources */,
+				A15CDE831E1E19700097BD3C /* POPAnimationRuntime.mm in Sources */,
+				A15CDE8D1E1E19700097BD3C /* POPPropertyAnimation.mm in Sources */,
+				A15CDE811E1E19700097BD3C /* POPAnimationEvent.mm in Sources */,
+				A15CDE961E1E19760097BD3C /* XLSpeechRecognitionConstant.swift in Sources */,
+				A15CDE8A1E1E19700097BD3C /* POPGeometry.mm in Sources */,
+				A15CDDCF1E1E172B0097BD3C /* AppDelegate.swift in Sources */,
+				A15CDE8F1E1E19700097BD3C /* POPVector.mm in Sources */,
+				A15CDE901E1E19700097BD3C /* TransformationMatrix.mm in Sources */,
+				A15CDE871E1E19700097BD3C /* POPCGUtils.mm in Sources */,
+				A15CDE851E1E19700097BD3C /* POPAnimator.mm in Sources */,
+				A15CDE971E1E19760097BD3C /* XLSpeechRecognitionController.swift in Sources */,
+				A15CDE8B1E1E19700097BD3C /* POPLayerExtras.mm in Sources */,
+				A15CDE891E1E19700097BD3C /* POPDecayAnimation.mm in Sources */,
+				A15CDE861E1E19700097BD3C /* POPBasicAnimation.mm in Sources */,
+				A15CDE8E1E1E19700097BD3C /* POPSpringAnimation.mm in Sources */,
+				A15CDE821E1E19700097BD3C /* POPAnimationExtras.mm in Sources */,
+				A15CDE8C1E1E19700097BD3C /* POPMath.mm in Sources */,
+				A15CDE841E1E19700097BD3C /* POPAnimationTracer.mm in Sources */,
+				A15CDE801E1E19700097BD3C /* POPAnimation.mm in Sources */,
+				A15CDE7F1E1E19700097BD3C /* POPAnimatableProperty.mm in Sources */,
+				A15CDE881E1E19700097BD3C /* POPCustomAnimation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDDB1E1E172B0097BD3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15CDDE41E1E172B0097BD3C /* XLSpeechRecognitionDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15CDDE61E1E172B0097BD3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15CDDEF1E1E172B0097BD3C /* XLSpeechRecognitionDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15CDDE11E1E172B0097BD3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15CDDCA1E1E172B0097BD3C /* XLSpeechRecognitionDemo */;
+			targetProxy = A15CDDE01E1E172B0097BD3C /* PBXContainerItemProxy */;
+		};
+		A15CDDEC1E1E172B0097BD3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15CDDCA1E1E172B0097BD3C /* XLSpeechRecognitionDemo */;
+			targetProxy = A15CDDEB1E1E172B0097BD3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15CDDD21E1E172B0097BD3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15CDDD31E1E172B0097BD3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A15CDDD71E1E172B0097BD3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15CDDD81E1E172B0097BD3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15CDDF11E1E172B0097BD3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A15CDDF21E1E172B0097BD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15CDDF41E1E172B0097BD3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLSpeechRecognitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLSpeechRecognition-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A15CDDF51E1E172B0097BD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLSpeechRecognitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XLSpeechRecognition-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A15CDDF71E1E172B0097BD3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLSpeechRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLSpeechRecognitionDemo.app/XLSpeechRecognitionDemo";
+			};
+			name = Debug;
+		};
+		A15CDDF81E1E172B0097BD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLSpeechRecognitionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLSpeechRecognitionDemo.app/XLSpeechRecognitionDemo";
+			};
+			name = Release;
+		};
+		A15CDDFA1E1E172B0097BD3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XLSpeechRecognitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XLSpeechRecognitionDemo;
+			};
+			name = Debug;
+		};
+		A15CDDFB1E1E172B0097BD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XLSpeechRecognitionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLSpeechRecognitionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XLSpeechRecognitionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15CDDC61E1E172B0097BD3C /* Build configuration list for PBXProject "XLSpeechRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15CDDF11E1E172B0097BD3C /* Debug */,
+				A15CDDF21E1E172B0097BD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15CDDF31E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15CDDF41E1E172B0097BD3C /* Debug */,
+				A15CDDF51E1E172B0097BD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A15CDDF61E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15CDDF71E1E172B0097BD3C /* Debug */,
+				A15CDDF81E1E172B0097BD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A15CDDF91E1E172B0097BD3C /* Build configuration list for PBXNativeTarget "XLSpeechRecognitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15CDDFA1E1E172B0097BD3C /* Debug */,
+				A15CDDFB1E1E172B0097BD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15CDDC31E1E172B0097BD3C /* Project object */;
+}
